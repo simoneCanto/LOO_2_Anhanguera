@@ -45,9 +45,13 @@ Observação: Todos os cenários devem ser obrigatoriamente salvos e enviados pa
 📁 Estrutura deste repositório
 .
 ├── aula_2.pptx                # Slides da aula
+
 ├── /assets                    # (opcional) Imagens/GIFs do Alice e do cenário
+
 ├── /projetos_alice             # (opcional) Exemplos .a3p (projetos do Alice)
+
 └── README.md                  # Este arquivo
+
 👀 Como visualizar os slides
 Opção 1 — Baixar e abrir no PowerPoint
 Clique em Code → Download ZIP e extraia, ou
@@ -81,9 +85,15 @@ Personalização: cores, objetos extras, sons e animações.
 Para arquivos .pptx e .a3p, considere ativar Git LFS:
 
 git lfs install
+
 git lfs track "*.pptx"
+
 git lfs track "*.a3p"
+
 git add .gitattributes
+
 git add aula_2.pptx
+
 git commit -m "Add slides da Aula 2"
+
 git push
